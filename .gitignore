@@ -1,0 +1,5 @@
+# Ignorar credenciais do Google
+Credentials/credentials.json
+
+# (opcional) ignorar qualquer JSON dentro da pasta Credentials
+Credentials/*.json

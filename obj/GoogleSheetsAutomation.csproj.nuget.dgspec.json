@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lucas/Documentos/Repositorio/GoogleSheetsAutomation/GoogleSheetsAutomation.csproj": {}
+  },
+  "projects": {
+    "/home/lucas/Documentos/Repositorio/GoogleSheetsAutomation/GoogleSheetsAutomation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lucas/Documentos/Repositorio/GoogleSheetsAutomation/GoogleSheetsAutomation.csproj",
+        "projectName": "GoogleSheetsAutomation",
+        "projectPath": "/home/lucas/Documentos/Repositorio/GoogleSheetsAutomation/GoogleSheetsAutomation.csproj",
+        "packagesPath": "/home/lucas/.nuget/packages/",
+        "outputPath": "/home/lucas/Documentos/Repositorio/GoogleSheetsAutomation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lucas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.73.0, )"
+            },
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.72.0.3966, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
